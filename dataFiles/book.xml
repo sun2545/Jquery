@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<kwonsun >
+	
+	<title> Sunhye's bookshelf </title>	
+	
+		<studentProg studentNumber="991382543">Computer Programmer</studentProg>
+		
+		<loginName studentName="Sunhye Kwon">kwonsun</loginName>	   
+	
+	<bookstore name="Chapters">
+		<url>https://www.chapters.indigo.ca/en-ca/home/storelocator/storeDetails/741</url>				
+	</bookstore>
+	
+	<bookstore name="University">
+		<url>https://bookstore.uoguelph.ca/</url>		
+	</bookstore>
+	
+	<bookstore name="Wardrobe">
+		<url>https://www.thebookwardrobe.com/</url>		
+	</bookstore>
+	
+	<book>
+	<category>Literary</category>
+	<booktitle>Exit West</booktitle>
+	<price>$16.99</price>
+	<invenId>LE1699</invenId>
+	<description>Exit West is a novel published in 2017, written by Pakistani author Mohsin Hamid.</description>
+	</book>
+	
+	<book>
+	<category>Biography</category>
+	<booktitle>Lincoln in the Bardo</booktitle>
+	<price>$20.65</price>
+	<invenId>BL2065</invenId>
+	<description>Lincoln in the Bardo is a 2017 experimental novel by American writer George Saunders.</description>
+	</book>
+	
+	<book>
+	<category>Thriller</category>
+	<booktitle>Sing, Unburied, Sing</booktitle>
+	<price>$19.86</price>
+	<invenId>TS1986</invenId>
+	<description>Sing, Unburied, Sing is a 2017 novel by Jesmyn Ward.</description>
+	</book>
+	
+	<book>
+	<category>Historical Fiction</category>
+	<booktitle>Manhattan Beach</booktitle>
+	<price>$25.99</price>
+	<invenId>HM2599</invenId>
+	<description>Manhattan Beach is a historical novel, the fifth novel by author Jennifer Egan.</description>
+	</book>
+	
+	<book>
+	<category>Young adult fiction</category>
+	<booktitle>The Hate U Give</booktitle>
+	<price>$18.88</price>
+	<invenId>YT1888</invenId>
+	<description>The Hate U Give is a young adult novel by Angie Thomas.</description>
+	</book>
+	
+	<book> 
+	<category>Science Fiction</category>
+	<booktitle>American War</booktitle>
+	<price>$21.33</price>
+	<invenId>SA2133</invenId>
+	<description>American War is the first novel by Canadian-Egyptian journalist Omar El Akkad.</description>
+	</book>
+	
+	<book>
+	<category>Domestic Fiction</category>
+	<booktitle>Anything Is Possible</booktitle>
+	<price>$25.74</price>
+	<invenId>DA2574</invenId>
+	<description>Anything Is Possible is a 2017 novel of related stories by Elizabeth Strout.</description>
+	</book>
+	
+	<book>
+	<category>Historical Fiction</category>
+	<booktitle>Pachinko</booktitle>
+	<price>$30.88</price>
+	<invenId>HP3088</invenId>
+	<description>Busan, Korea 1911: A club-footed, cleft-lipped man marries a fifteen-year-old beauty.</description>
+	</book>
+	
+</kwonsun>
