@@ -1,0 +1,88 @@
+
+.ui-icon-Chapters:after{
+	background-image: url("images/Chapters.png");
+	background-size: 22px 22px;
+}
+
+.ui-icon-University:after{
+	background-image: url("images/University.png");
+	background-size: 22px 22px;
+}
+
+.ui-icon-Wardrobe:after{
+	background-image: url("images/Wardrobe.png");
+	background-size: 22px 22px;
+}
+.ui-icon-book0:after{
+	background-image: url("images/0.png");
+	background-size: 22px 22px;
+}
+.ui-icon-book1:after{
+	background-image: url("images/1.jpg");
+	background-size: 22px 22px;
+}
+.ui-icon-book2:after{
+	background-image: url("images/2.jpg");
+	background-size: 22px 22px;
+}
+.ui-icon-book3:after{
+	background-image: url("images/3.jpg");
+	background-size: 22px 22px;
+}
+.ui-icon-book4:after{
+	background-image: url("images/4.jpg");
+	background-size: 22px 22px;
+}
+.ui-icon-book5:after{
+	background-image: url("images/5.jpg");
+	background-size: 22px 22px;
+}
+
+.ui-icon-book6:after{
+	background-image: url("images/6.jpg");
+	background-size: 22px 22px;
+}
+.ui-icon-book7:after{
+	background-image: url("images/7.jpg");
+	background-size: 22px 22px;
+}
+.page-header, h6{
+    text-align: center;
+	
+}
+h2{
+	margin: 0px;
+}
+
+
+li{
+	background-color: #4CAF50;
+}
+#main-header{
+    margin: 10px; 
+   padding: 0px;
+  
+}
+
+#my-info{
+    margin: 0px;
+    padding:0px;
+    max-height: 40px;
+}
+section {
+    padding-bottom: 0;
+	background-color: #4CAF50;
+	
+}
+
+header{
+    text-shadow: 2px 2px black; 
+}
+#head {
+   background-color:SKYBULE;
+}
+
+
+
+
+
