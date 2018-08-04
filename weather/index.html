@@ -1,0 +1,132 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="css/jquery.mobile.css" />
+	<link  rel="stylesheet" href="css/mystyles.css"/>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.js"></script>
+	<script src="js/myscript.js"></script>
+    <title>Assignment3</title>	
+</head> 
+
+<body> 
+
+    <div data-role="page" id="firstPage" >
+       <!--header imge and date --> 
+        <header data-role="header">
+            
+        </header>
+		
+        <section class="ui-content" data-role="main">
+            <div class="ui-grid-b">
+               <!-- panel buttons -->
+                <div class="ui-block-a">
+                    <a href="#windPanel" class="ui-btn ui-icon-wind ui-btn-icon-left">Wind</a>
+					<a href="#atmospherePanel" class="ui-btn ui-icon-atmosphere ui-btn-icon-left">Atmosphere</a>	
+					<a href="#astronomyPanel" class="ui-btn ui-icon-astronomy ui-btn-icon-left">Astronomy </a>
+                   
+                </div>
+                <div class="ui-block-b">
+                    
+                </div><!-- Location info End -->
+                <!--collapsible drop down -->
+                <div class="ui-block-c" id="forecast">
+                    <div data-role="collapsible">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <!-- footer  -->
+        <footer data-role="footer">  	
+            <div class="ui-grid-b center">
+            
+                
+                
+            </div>
+            
+        </footer><!-- footer End -->
+        <!-- Panels -->	
+        <div id="windPanel" data-role="panel" >
+            <h3 style="text-align:center;">Wind</h3>
+            <p></p>
+
+        </div>
+        <!-- -------------------------------- -->
+        <div id="atmospherePanel" data-role="panel">
+            <h3 style="text-align:center;">Atmosphere</h3>
+            <p></p>
+        </div>
+
+        <!-- -------------------------------- -->
+        <div id="astronomyPanel" data-role="panel">
+            <h3 style="text-align:center;">Astronomy</h3>
+            <p></p>
+
+        </div>
+        <!-- -------------------------------- -->
+        <div id="commendPanel" data-role="panel">
+            <h3 style="text-align:center;">Ask/Comment</h3>
+               <div id="map_canvas" style="height:400px; width:400px;"></div> 
+        
+        </div><!-- panel End -->
+    </div> <!-- mainpage End -->
+    
+    <!-- me page -->
+    <div data-role="page" id="secondPage">
+       <header daata-role="header">
+           
+       </header>
+       <section clas="ui-content" data-rol="main">
+           
+       </section>
+       <footer data-role="footer">
+           <div class="ui-grid-solo">
+               <a href="#firstPage" data-role="button" data-icon="back">Back</a>
+           </div> 
+       </footer>
+        
+    </div><!-- me page End -->
+    <!-- form page -->
+    <div data-role="page" id="thirdPage">
+       <header daata-role="header">
+           
+       </header>
+       <section clas="ui-content" data-rol="main">   
+            <form>
+            
+				<em>Email:</em><br>
+            <input type="text" name="email" id="email" placeholder="Email"><br>
+
+            <fieldset data-role="controlgroup" data-type="horizontal">
+                <legend>Category: </legend>
+                <input type="radio" name="category" id="toronto" value="Toronto">
+                <label for="toronto">Toronto</label>
+                <input type="radio" name="category" id="brampton" value="Brampton">
+                <label for="brampton">Brampton</label>
+                <input type="radio" name="category" id="oakville" value="Oakville">
+                <label for="oakville">Oakville</label>
+            </fieldset><br>
+           <textarea name="textarea" id="textarea"></textarea>
+           
+            </form>
+       </section>
+       <footer data-role="footer">
+           <div class="ui-grid-solo">
+                <a href='#firstPage' class='ui-btn ui-corner-all ui-icon-back ui-btn-icon-left' >Back</a>
+               <a href='#popup' data-rel="popup" class='ui-btn ui-corner-all ui-icon-info ui-btn-icon-left' id="retrieve" >Retrive</a>
+			   <input type="button" value="Submit" id="submit" style="max-width:100px">
+           </div>
+       </footer>
+       <div data-role="popup" id="popup" class="ui-content" style="max-width:280px">
+            
+            <p id="popup"></p>
+        </div>
+        
+    </div>  
+</body>
+</html>

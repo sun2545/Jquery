@@ -1,0 +1,158 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2018-03-21T13:51:13Z",
+  "lang": "en-US",
+	"myData" : {
+		"studName" : "Sunhye Kwon",
+		"studNumb" : "991 382 543",
+		"studProg" : "Computer Programming",
+		"myPic" : "sunhye.PNG",
+		"myQuote" : "Live as if you were to die tomorrow.Learn as if you were to live forever. -Gandhit",
+		"aboutIcon" : "aboutme",
+		"otherIcon" : "chapters",
+		"weatherImg" : "weather.jpg"
+	},
+  "results": {
+   "channel": {
+    "units": {
+     "distance": "mi",
+     "pressure": "in",
+     "speed": "mph",
+     "temperature": "F"
+    },
+    "title": "Yahoo! Weather - Toronto, ON, CA",
+    "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-4118/",
+    "description": "Yahoo! Weather for Toronto, ON, CA",
+    "language": "en-us",
+    "lastBuildDate": "Wed, 21 Mar 2018 09:51 AM EDT",
+    "ttl": "60",
+    "location": {
+     "city": "Toronto",
+     "country": "Canada",
+     "region": " ON"
+    },
+    "wind": {
+     "chill": "16",
+     "direction": "30",
+     "speed": "22"
+    },
+    "atmosphere": {
+     "humidity": "56",
+     "pressure": "1003.0",
+     "rising": "0",
+     "visibility": "16.1"
+    },
+    "astronomy": {
+     "sunrise": "7:19 am",
+     "sunset": "7:31 pm"
+    },
+    "image": {
+     "title": "Yahoo! Weather",
+     "width": "142",
+     "height": "18",
+     "link": "http://weather.yahoo.com",
+     "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+    },
+    "item": {
+     "title": "Conditions for Toronto, ON, CA at 09:00 AM EDT",
+     "lat": "43.64856",
+     "long": "-79.385368",
+     "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-4118/",
+     "pubDate": "Wed, 21 Mar 2018 09:00 AM EDT",
+     "condition": {
+      "code": "26",
+      "date": "Wed, 21 Mar 2018 09:00 AM EDT",
+      "temp": "26",
+      "text": "Cloudy"
+     },
+     "forecast": [
+      {
+       "code": "26",
+       "date": "21 Mar 2018",
+       "day": "Wed",
+       "high": "38",
+       "low": "25",
+       "text": "Cloudy"
+      },
+      {
+       "code": "28",
+       "date": "22 Mar 2018",
+       "day": "Thu",
+       "high": "39",
+       "low": "23",
+       "text": "Mostly Cloudy"
+      },
+      {
+       "code": "30",
+       "date": "23 Mar 2018",
+       "day": "Fri",
+       "high": "38",
+       "low": "26",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "32",
+       "date": "24 Mar 2018",
+       "day": "Sat",
+       "high": "37",
+       "low": "24",
+       "text": "Sunny"
+      },
+      {
+       "code": "32",
+       "date": "25 Mar 2018",
+       "day": "Sun",
+       "high": "31",
+       "low": "19",
+       "text": "Sunny"
+      },
+      {
+       "code": "30",
+       "date": "26 Mar 2018",
+       "day": "Mon",
+       "high": "37",
+       "low": "29",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "28",
+       "date": "27 Mar 2018",
+       "day": "Tue",
+       "high": "40",
+       "low": "33",
+       "text": "Mostly Cloudy"
+      },
+      {
+       "code": "12",
+       "date": "28 Mar 2018",
+       "day": "Wed",
+       "high": "40",
+       "low": "38",
+       "text": "Rain"
+      },
+      {
+       "code": "28",
+       "date": "29 Mar 2018",
+       "day": "Thu",
+       "high": "44",
+       "low": "38",
+       "text": "Mostly Cloudy"
+      },
+      {
+       "code": "28",
+       "date": "30 Mar 2018",
+       "day": "Fri",
+       "high": "48",
+       "low": "35",
+       "text": "Mostly Cloudy"
+      }
+     ],
+     "guid": {
+      "isPermaLink": "false"
+     }
+    }
+   }
+  }
+ }
+}

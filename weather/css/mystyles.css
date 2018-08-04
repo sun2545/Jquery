@@ -1,0 +1,63 @@
+.ui-icon-aboutme:after
+{
+	background-image: url("images/aboutme.jpg");
+	background-size: 22px 22px;
+	text-bottom:"About me"
+}
+
+.ui-icon-chapters:after
+{
+	background-image: url("images/chapters.png");
+	background-size: 22px 22px;
+}
+
+.ui-icon-w3:after
+{
+	background-image: url("images/w3.png");
+	background-size: 22px 22px;
+}
+
+.ui-icon-wind:after
+{
+	background-image: url("images/wind.jpg");
+	background-size: 22px 22px;
+}
+
+.ui-icon-atmosphere:after
+{
+	background-image: url("images/atmosphere.jpg");
+	background-size: 22px 22px;
+}
+
+.ui-icon-astronomy:after
+{
+	background-image: url("images/astronomy.jpg");
+	background-size: 22px 22px;
+}
+
+.ui-icon-comment:after
+{
+	background-image: url("images/comment.jpg");
+	background-size: 22px 22px;
+}
+
+.ui-icon-retrieve:after
+{
+	background-image: url("images/retrieve.jpg");
+	background-size: 22px 22px;
+}
+
+
+
+#pageImg{
+	width:8%;
+	}
+
+#lastBuildDate{
+	float: right;
+}
+
+ul{
+	display: inline-block;
+}
+
