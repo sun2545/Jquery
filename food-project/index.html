@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/jquery.mobile.css" />   	
+    <link rel="stylesheet" href="css/mystyles.css" />				
+    <script src="js/jquery.js"></script>								
+    <script src="js/jquery.mobile.js"></script> 	
+    <script src="js/myscript.js"></script>
+    
+</head>
+<body>
+   <!----------------- mainPage Start ----------------------->
+    <div data-role="page" id="mainPage" > 
+       <!-- header  --> 
+        <header data-role="header">
+            <h2>Project</h2>
+        </header><!-- header end --> 
+        <!-- main contents  --> 
+        <section class="ui-content" data-role="content">
+           <h2>Food Group : Grains</h2>
+           <br>
+           <div class="ui-grid-solo">
+               <div class="ui-block-a">
+                    <a href="#usda" class="ui-btn" >USDA</a>
+                    <br>
+                    <a href="#grains" class="ui-btn" >Grains and definitions</a>
+                </div>  
+            </div>
+            <br>
+        </section><!-- main contents end --> 
+        <!-- footer --> 
+        <footer>
+           <!-- footer nev --> 
+           <div data-role="navbar" class="footerNav">
+             
+            </div><!-- footer nev end -->  
+        </footer><!-- footer end --> 
+    </div><!-- mainPage end -->
+	
+	
+	
+	
+    <!------------------nav dilaog start --------------------->
+    <div data-role="page" id="dialog0" > 
+        <div data-role="header">
+            <h2></h2>
+        </div>
+        <div role='main' class='ui-content'>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+            </div>
+        </div>
+        <div data-role="footer" class="footer-dialog"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline  ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a></div>
+    </div> 
+	
+	
+    <div data-role="page" id="dialog1" > 
+        <div data-role="header">
+            <h2></h2>
+        </div>
+        <div role='main' class='ui-content'>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+            </div>
+        </div>
+        <div data-role="footer" class="footer-dialog"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline  ui-icon-back  ui-btn-icon-left" data-rel="back">Go Back</a></div>
+    </div>    
+	
+    
+    <!------------------nav dilaog end ------------------------>
+	
+    <!------------------usda page start ---------------------->
+    <div data-role="page" id="usda">
+        <header data-role="header">
+            <a href="#mainPage" class="ui-btn ui-corner-all ui-shadow ui-btn-inline  ui-icon-home ui-btn-icon-left" >Home</a>
+            <a href="#grains" class="ui-btn ui-corner-all ui-shadow ui-btn-inline  ui-icon-back ui-btn-icon-left" >Go to Grains</a>
+            <h2 id="usdaHeader"></h2>
+        </header>
+        <section data-role="main" class="ui-content">
+            <div class="ui-grid-solo">
+                <div class="ui-block-a" id="usdaListView"> 
+                    
+               </div>
+                
+            </div>
+        </section>
+        <footer data-role="footer">
+            <div data-role="navbar" class="footerNav">
+  
+            </div><!-- footer nev end --> 
+        </footer>
+    </div>
+   <!------------------usda page start ---------------------->
+
+   
+   <!------------------grains start -------------------------> 
+    <div data-role="page" id="grains">
+        <header data-role="header">
+            <a href="#mainPage" class="ui-btn ui-corner-all ui-shadow ui-btn-inline  ui-icon-home ui-btn-icon-left" >Home</a> 
+            <a href="#usda" class="ui-btn ui-corner-all ui-shadow ui-btn-inline  ui-icon-back ui-btn-icon-left" >Go to USDA</a> 
+			<h2 id="grainssHeader"></h2>
+        </header>
+        <section data-role="main" class="ui-content">
+          <h4 id="grainsTitle"></h4>
+           <div class="ui-grid-a">
+                <div class="ui-block-a" id="grainsA">
+					<!-- add links to 2 panels here -->
+                </div>
+                <div class="ui-block-b" id="grainsB">
+					<!-- add links to 2 panels here -->
+                </div>
+            </div>
+        </section>
+        <footer data-role="footer">
+            <div data-role="navbar" class="footerNav">
+  
+            </div><!-- footer nev end --> 
+        </footer>
+         <!------------------panels ------------------------->
+        <div id="panel0" data-role="panel" class="panels">
+           
+        </div>
+         <!-- Panels -->	
+        <div id="panel1" data-role="panel" class="panels" >
+            
+
+        </div>
+         <!-- Panels -->	
+        <div id="panel2" data-role="panel" class="panels" data-position="right">
+            
+
+        </div>
+         <!-- Panels -->	
+        <div id="panel3" data-role="panel"  class="panels" data-position="right">
+           
+        </div>
+         <!-- Panels -->	
+        
+        
+        
+    </div>
+    <!------------------grains end ------------------------->
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

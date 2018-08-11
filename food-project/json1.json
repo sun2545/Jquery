@@ -1,0 +1,18 @@
+{
+	"group": {
+		"students": [{
+			"studentName": "Sunhye Kwon",
+			"sLogin": "kwonsun",
+			"sNumber": "991382543",
+			"sPicture": "sunhye.PNG"
+
+		}, {
+			"studentName": "Coral Chew",
+			"sLogin": "chewc",
+			"sNumber": "991427400",
+			"sPicture": "onecard.jpg"
+
+		
+		}]
+	}
+}

@@ -1,0 +1,27 @@
+body { font-family:Garamond;}
+table { width: 100%;}
+td, th {
+	text-align: left; 
+	padding:1%; 
+	width: 25%;
+	background: skyblue; 
+	font-size: 1em; 
+	font-weight: bold; 
+}
+
+.ui-icon-chewc:after { background-image: url("images/chewc.jpg"); background-size: 22px 22px; }
+.ui-icon-kwonsun:after { background-image: url("images/kwonsun.PNG"); background-size: 22px 22px; }
+.ui-icon-USDAERS00030:after { background-image: url("images/USDA-ERS-00030.png"); background-size: 22px 22px; }
+.ui-icon-USDAERS00021:after { background-image: url("images/USDA-ERS-00021.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00017:after { background-image: url("images/USDA-ERS-00017.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00012:after { background-image: url("images/USDA-ERS-00012.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00016:after { background-image: url("images/USDA-ERS-00016.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00013:after { background-image: url("images/USDA-ERS-00013.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00015:after { background-image: url("images/USDA-ERS-00015.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00019:after { background-image: url("images/USDA-ERS-00019.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00018:after { background-image: url("images/USDA-ERS-00018.jpg"); background-size: 22px 22px; }
+.ui-icon-USDAERS00014:after { background-image: url("images/USDA-ERS-00014.jpg"); background-size: 22px 22px; }
+
+USDA-ERS-00030
+
+

@@ -1,0 +1,338 @@
+{
+  "type": "USDA: Code 009",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "context": "https://project-open-data.cio.gov/v1.1/schema/data.jsonld",
+  "blockset": [
+    {
+      "classid": "USDA-ERS-00030",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:irahkovsky@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Ilya Rahkovsky",
+				"icon": "USDA-ERS-00030"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Is a unique, comprehensive database which connects a product’s Universal Product Code (UPC) with information on the product’s nutritional composition contained on the package label for over 150,000 items. It details UPC ingredient and nutritional composition information covering over 90% of all major product categories. Also includes brand, manufacturer, label claims, and package and serving size.",
+      "title": "Gladson : Gladson UPC Information Database",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://mospi.nic.in/Mospi_New/site/home.aspx",
+          "mediaType": "text/html",
+          "title": "National Sample Survey"
+        }
+			],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service: Food Economics Division"
+      },
+      "spatial": "United States"
+    },
+    {
+      "classid": "USDA-ERS-00021",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:standon@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Sharad Tandon",
+				"icon": "USDA-ERS-00021"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Historical Survey Rounds",
+      "title": "Government of India:  National Sample Survey: Consumer Expenditure and Employment Data",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://mospi.nic.in/Mospi_New/site/home.aspx",
+          "mediaType": "text/html",
+          "title": "National Sample Survey"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "India"
+    },
+    {
+      "classid": "USDA-ERS-00017",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00017"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "CPI index data with commodity price data",
+      "title": "Haver Analytics: CPIDATA - Consumer Price Detail",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "U.S."
+    },
+    {
+      "classid": "USDA-ERS-00012",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00012"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Consumer price indexes. Also includes average prices paid for commodities, utilities and fuels, CPI for older Americans, chained CPI, department store inventory price indexes and CPI research series Data",
+      "title": "Haver Analytics: Consumer Price Indices",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "United States"
+    },
+    {
+      "classid": "USDA-ERS-00016",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00016"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Flow of Funds data (Z.1) from the Federal Reserve Board. Financial assets and liabilities by sector and transaction type as well as Balance Sheet items.",
+      "title": "Haver Analytics: Flow of Funds",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "U.S."
+    },
+    {
+      "classid": "USDA-ERS-00013",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00013"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Contains the complete monthly household employment data from the Current  Population Survey of households from the BLS.",
+      "title": "Haver Analytics: Household Survey (Employment)",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "U.S."
+    },
+    {
+      "classid": "USDA-ERS-00015",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00015"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Complete industrial production detail including electric power use for 285 industries and industry groups published monthly in the (G.17) Federal Reserve Board release, Industrial Production and Capacity Utilization.",
+      "title": "Haver Analytics: Industrial Production Detail",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "U.S."
+    },
+    {
+      "classid": "USDA-ERS-00019",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00019"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Monthly, quarterly, and annual gross domestic product and national accounts detail, interest rates, price and production indexes, money and banking, commodity prices, exchange rates, and balance of payments data for nearly 250 countries and regional aggregates as published in the IMF's International Financial Statistics. Also includes the IMF's Financial Soundness Indicators and Fiscal Monitor.",
+      "title": "Haver Analytics: International Fincanial Statistics",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "Global"
+    },
+    {
+      "classid": "USDA-ERS-00018",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00018"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Stage of processing, commodity and industry-based price indexes published by the Bureau of Labor Statistics in the PPI Detailed Report",
+      "title": "Haver Analytics: Producer Prices Index",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "United States"
+    },
+    {
+      "classid": "USDA-ERS-00014",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:dtorg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Dave Torgerson",
+				"icon": "USDA-ERS-00014"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Detailed international trade in goods and services, international transactions, foreign direct investment in the U.S., U.S. direct investment abroad, foreign transactions in long-term securities (TIC data) by country and product.",
+      "title": "Haver Analytics: U.S International",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.haver.com",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "rights": "Purchased dataset with non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "Global"
+    }	
+	]
+}

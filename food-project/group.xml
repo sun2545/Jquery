@@ -1,0 +1,32 @@
+<foodGroup>
+	<groupName> Grains </groupName>
+	<groupUrl> https://www.choosemyplate.gov/grains </groupUrl>
+	<food name="Oatmeal">
+		<calories>68</calories>
+		<price>3.27</price>
+		<fat>1.4 g</fat>
+		<sodium>49 mg</sodium>
+		<protein>2.4 g</protein>
+	</food>
+	<food name="Tortilla">
+		<calories>150</calories>
+		<price>4.84</price>
+		<fat>1 g</fat>
+		<sodium> 482 mg</sodium>
+		<protein> 7 g</protein>
+	</food>	
+	<food name="White Rice">
+		<calories>130</calories>
+		<price>5.97</price>
+		<fat>0.3 g</fat>
+		<sodium>1 mg</sodium>
+		<protein>2.7 g</protein>
+	</food>	
+	<food name="Bread">
+		<calories>275</calories>
+		<price>21.95</price>
+		<fat>3.2 g</fat>
+		<sodium>491 mg</sodium>
+		<protein>9 g</protein>
+	</food>	
+</foodGroup>
